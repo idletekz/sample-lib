@@ -1,4 +1,4 @@
-{{- define "my-secret-lib.secret" -}}
+{{- define "sample-lib.secret" -}}
 apiVersion: v1
 kind: Secret
 metadata:
