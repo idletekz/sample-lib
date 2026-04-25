@@ -6,4 +6,4 @@ version: 0.1.0
 dependencies:
   - name: sample-lib
     version: 0.1.0
-    repository: "file://../sample-lib"
+    repository:  https://idletekz.github.io/sample-lib
