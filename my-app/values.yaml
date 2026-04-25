@@ -1,0 +1,6 @@
+secret:
+  name: app-secret
+  namespace: default
+  data:
+    api-key: mykey123
+    token: abc123

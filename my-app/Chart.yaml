@@ -1,0 +1,9 @@
+apiVersion: v2
+name: my-app
+description: Sample consumer app using my-secret-lib
+version: 0.1.0
+
+dependencies:
+  - name: my-secret-lib
+    version: 0.1.0
+    repository: "file://../sample-lib"

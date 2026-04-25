@@ -1,0 +1,6 @@
+secret:
+  name: my-secret
+  namespace: default
+  data:
+    username: admin
+    password: changeme

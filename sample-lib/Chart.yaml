@@ -1,0 +1,5 @@
+apiVersion: v2
+name: my-secret-lib
+description: A reusable Helm library chart for secrets
+type: library
+version: 0.1.0

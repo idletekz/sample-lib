@@ -1,0 +1,12 @@
+{{- define "my-secret-lib.secret" -}}
+apiVersion: v1
+kind: Secret
+metadata:
+  name: {{ .name }}
+  namespace: {{ .namespace }}
+type: Opaque
+data:
+{{- range $key, $value := .data }}
+  {{ $key }}: {{ $value | b64enc }}
+{{- end }}
+{{- end }}
