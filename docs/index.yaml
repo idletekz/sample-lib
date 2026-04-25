@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  sample-lib:
+  - apiVersion: v2
+    created: "2026-04-24T20:33:58.869945018-04:00"
+    description: A reusable Helm library chart for secrets
+    digest: 2d9192be413ea19bb46e0dbf7ecf3ab4ec914a74af5d29ec25150087e78cefe0
+    name: sample-lib
+    type: library
+    urls:
+    - https://idletekz.github.io/sample-lib/sample-lib-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-04-24T20:33:58.865757176-04:00"
